@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+ /* .a {
+    width: 500px;
+    height: 100px;
+    color: black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    margin: .3em;
+  } */
+
+.a {
+    background-color: rgba(244, 244, 248, 0.463);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+p {
+    font-size: 50px;
+}
+
+.city-text {
+    font-size: 50px;
+    color: black;
+}
+
+.title-text {
+    color: black;
+    font-size: 25px;
+
+} 
+
+ .high {
+    background-color: rgba(255, 0, 0, 0.4);
+    color:black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.low {
+    background-color: rgba(0, 0, 255, 0.463);
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.humidity {
+    background-color: rgba(58, 58, 140, 0.4);
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.forcast {
+    background-color: rgba(250, 222, 3, 0.463);
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.b, .c, .d, .e{
+    background-color: rgba(244, 244, 248, 0.463);
+    width: 15%;
+    margin: 25px 25px;
+    padding: 25px;
+}
+
+body {
+    background-image: url('https://images.pexels.com/photos/1028600/pexels-photo-1028600.jpeg?cs=srgb&dl=pexels-lumn-1028600.jpg&fm=jpg');
+}

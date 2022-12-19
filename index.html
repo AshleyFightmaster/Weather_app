@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Weather</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline" name="search" id="search">
+          <input class="form-control mr-sm-2" type="search" placeholder="Zipcode" aria-label="Search" name="zipcode" id="zipcode">
+          <input class="form-control mr-sm-2" type="search" placeholder="Countrycode" aria-label="Search" name="countrycode" id="countrycode">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+<div class="container">
+    <div class="box a" id="div0">
+        <p class="city-text">City, Country:</p>
+    </div>
+    <div class="box b" id="div1">
+        <p class="title-text">High 🥵:</p>
+
+    </div>
+    <div class="box c" id="div2">
+        <p class="title-text">Low 🥶:</p>
+    </div>
+    <div class="box d" id="div3">
+        <p class="title-text">Forcast ☀:</p>
+    </div>
+    <div class="box e" id="div4">
+        <p class="title-text">Humidity 💧:</p>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
